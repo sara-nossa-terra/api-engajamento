@@ -44,7 +44,7 @@ class LoginController extends Controller
                 ->header('Content-Type', 'application/json');
         }
 
-        return new LeaderResource($me);
+        return new LeaderResource(Auth::user());
     }
 
     /**
