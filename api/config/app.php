@@ -178,6 +178,8 @@ return [
         Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
 
         App\Providers\RepositoryServiceProvider::class,
+
+        Arcanedev\LogViewer\LogViewerServiceProvider::class,
     ],
 
     /*
